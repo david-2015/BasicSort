@@ -6,11 +6,11 @@
  */
 public class MergeSort {
 	
-	public static void main(int[] args){
+	public static void main(String[] args){
 		int[] arr={6,5,3,1,8,7,2,4};
 		merge_sort(arr);
 		for(int i:arr){
-			System.out.println(i);
+			System.out.print(i+" ");
 		}
 	}
 
